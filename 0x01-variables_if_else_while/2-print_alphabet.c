@@ -1,14 +1,18 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - print the alphabetic
+ * Return: Always (Success)
+ */
+
 int main(void)
 {
-	int n;
+	int c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(C);
+	putchar('\n');
 	return (0);
 }
